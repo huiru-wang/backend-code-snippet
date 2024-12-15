@@ -253,7 +253,12 @@ public interface UserMapper {
 logging.config=classpath:log4j2.xml
 ```
 
-见：log4j2.xml
+见：[resources/log4j2.xml](https://github.com/huiru-wang/backend-code-snippet/blob/main/01-springboot-mvc/src/main/resources/log4j2.xml)
+- 实现自定义日志格式：pattern
+- 日志分类份文件打印
+- 滚动日志策略
+- 日志保留策略
+- 异步日志
 
 ## 全局异常处理
 
@@ -596,7 +601,7 @@ public class RedisTemplateConfig {
 
 ### 3. 各个数据类型使用方式
 
-这部分，在Test中使用，见：`test/java/com.example.codesnippet.cache`
+在Test中进行各个数据类型的操作，见：[test/java/com.example.codesnippet.cache](https://github.com/huiru-wang/backend-code-snippet/tree/main/01-springboot-mvc/src/test/java/com/example/codesnippet/cache)
 
 
 ## MessageQueue
