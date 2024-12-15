@@ -26,6 +26,6 @@
 ## Express-mvc
 
 [Express + Sequelize ORM + MySQL](https://github.com/huiru-wang/backend-code-snippet/tree/main/30-express-mvc#1-%E5%87%86%E5%A4%87%E9%A1%B9%E7%9B%AE)
--[目录结构](https://github.com/huiru-wang/backend-code-snippet/tree/main/30-express-mvc#1-%E5%87%86%E5%A4%87%E9%A1%B9%E7%9B%AE)
--[Sequelize ORM 配置MySQL](https://github.com/huiru-wang/backend-code-snippet/tree/main/30-express-mvc#3-sequelize-orm-%E9%85%8D%E7%BD%AEmysql)
--[模块化路由](https://github.com/huiru-wang/backend-code-snippet/tree/main/30-express-mvc#5-%E6%A8%A1%E5%9D%97%E5%8C%96%E8%B7%AF%E7%94%B1)
+- [目录结构](https://github.com/huiru-wang/backend-code-snippet/tree/main/30-express-mvc#1-%E5%87%86%E5%A4%87%E9%A1%B9%E7%9B%AE)
+- [Sequelize ORM 配置MySQL](https://github.com/huiru-wang/backend-code-snippet/tree/main/30-express-mvc#3-sequelize-orm-%E9%85%8D%E7%BD%AEmysql)
+- [模块化路由](https://github.com/huiru-wang/backend-code-snippet/tree/main/30-express-mvc#5-%E6%A8%A1%E5%9D%97%E5%8C%96%E8%B7%AF%E7%94%B1)
