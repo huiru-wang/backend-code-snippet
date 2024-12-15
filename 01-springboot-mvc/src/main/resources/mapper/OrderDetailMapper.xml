@@ -2,4 +2,28 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.example.codesnippet.dao.mapper.OrderDetailMapper">
 
+    <resultMap id="OrderDetailEntityResultMap" type="com.example.codesnippet.dao.entity.OrderDetailEntity">
+        <id property="id" column="id" jdbcType="INTEGER" />
+        <result property="orderId" column="order_id" jdbcType="VARCHAR" />
+        <result property="skuId" column="sku_id" jdbcType="VARCHAR" />
+        <result property="price" column="price" jdbcType="DECIMAL" />
+        <result property="actualPrice" column="actual_price" jdbcType="DECIMAL" />
+        <result property="quantity" column="quantity" jdbcType="INTEGER" />
+        <result property="createdAt" column="created_at" jdbcType="TIMESTAMP" />
+        <result property="updatedAt" column="updated_at" jdbcType="TIMESTAMP" />
+    </resultMap>
+
+    <!-- 插入订单详情信息的SQL语句 -->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        INSERT INTO t_order_detail (order_id, sku_id, price, actual_price, quantity, created_at, updated_at)
+        VALUES (#{orderDetail.orderId}, #{orderDetail.skuId}, #{orderDetail.price},
+                #{orderDetail.actualPrice}, #{orderDetail.quantity}, #{orderDetail.createdAt}, #{orderDetail.updatedAt})
+    </insert>
+
+    <!-- 根据订单ID查询订单详情信息的SQL语句 -->
+    <select id="selectByOrderId" resultMap="OrderDetailEntityResultMap">
+        SELECT id, order_id, sku_id, price, actual_price, quantity, created_at, updated_at
+        FROM t_order_detail
+        WHERE order_id = #{orderId}
+    </select>
 </mapper>
