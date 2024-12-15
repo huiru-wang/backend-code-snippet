@@ -1,5 +1,10 @@
 
 ## 1. 准备项目
+
+准备MySQL、Redis容器、数据库表:
+
+[中间件配置](https://github.com/huiru-wang/backend-code-snippet/blob/main/00-basic/middleware-config.md)
+
 ```shell
 cd 30-express-basic
 pnpm init
