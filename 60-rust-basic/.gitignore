@@ -1,0 +1,22 @@
+# Ignore all build artifacts
+/target/
+
+# Ignore Cargo.lock as it can be regenerated
+Cargo.lock
+
+# Ignore the Rust compiler's temporary files
+**/*.rs.bk
+
+# Ignore editor-specific files
+*.swp
+*~
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore any other files you might want to ignore
+# Add them here
