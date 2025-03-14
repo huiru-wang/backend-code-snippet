@@ -19,6 +19,7 @@ public enum ErrorConstants {
     AUTHENTICATION_FAIL("100002", "authentication fail"),
 
     // *************************** 11 ***************************
+
     USER_INFO_UPDATE_FAIL("110001", "user info update fail"),
 
     USER_CREATE_FAIL("110002", "user create fail"),

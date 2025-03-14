@@ -1,0 +1,2 @@
+logFilter=com.example.codesnippet.dubboprovider.filter.LogFilter
+traceFilter=com.example.codesnippet.dubboprovider.filter.TraceFilter

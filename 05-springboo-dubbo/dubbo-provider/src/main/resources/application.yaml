@@ -1,0 +1,15 @@
+dubbo:
+  application:
+    name: dubbo-provider
+    logger: slf4j
+    shut-wait: 10s
+    qos-port: 22222
+  protocol:
+    name: tri
+    port: -1
+  registry:
+    register: true
+    address: nacos://127.0.0.1:8848?namespace=00079ffa-7e3e-4d31-861e-a807d1cdeaef
+    register-mode: instance
+  provider:
+    async: false

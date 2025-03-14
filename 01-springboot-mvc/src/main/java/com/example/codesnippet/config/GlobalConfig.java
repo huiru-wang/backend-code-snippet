@@ -24,7 +24,6 @@ import java.util.TimeZone;
 @Configuration
 public class GlobalConfig {
 
-
     /**
      * 数据校验快速失败
      * 当出现一个校验失败，则返回
@@ -36,7 +35,7 @@ public class GlobalConfig {
     public Validator validator() {
         return Validation.byProvider(HibernateValidator.class)
                 .configure()
-                //.failFast( true )
+                .failFast(true)
                 .addProperty("hibernate.validator.fail_fast", "true")
                 .buildValidatorFactory()
                 .getValidator();
