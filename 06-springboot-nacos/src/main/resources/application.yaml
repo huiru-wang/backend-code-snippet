@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: nacos-config-demo
+  config:
+    location: classpath:*.xml
+server:
+  port: 8080

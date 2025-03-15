@@ -1,0 +1,11 @@
+dubbo:
+  application:
+    name: dubbo-app
+    logger: slf4j
+    shut-wait: 10s
+    qos-port: 22222
+  protocol:
+    name: tri
+    port: 50001
+  provider:
+    async: false

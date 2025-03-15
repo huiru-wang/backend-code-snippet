@@ -1,21 +1,10 @@
 package com.example.codesnippet.dubboprovider;
 
-import com.example.codesnippet.dubboprovider.service.impl.DemoServiceImpl;
-import com.example.codesnippet.service.DemoService;
-import org.apache.dubbo.common.constants.CommonConstants;
 import org.apache.dubbo.common.utils.NamedThreadFactory;
-import org.apache.dubbo.config.ApplicationConfig;
-import org.apache.dubbo.config.ProtocolConfig;
-import org.apache.dubbo.config.ProviderConfig;
-import org.apache.dubbo.config.RegistryConfig;
-import org.apache.dubbo.config.ServiceConfig;
-import org.apache.dubbo.config.bootstrap.DubboBootstrap;
-import org.apache.dubbo.config.bootstrap.builders.ServiceBuilder;
 import org.apache.dubbo.config.spring.context.annotation.EnableDubbo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import java.util.Map;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 

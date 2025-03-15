@@ -1,8 +1,8 @@
 package com.example.codesnippet.dubboprovider.service.impl;
 
-import com.example.codesnippet.model.DemoMessage;
-import com.example.codesnippet.model.ServiceResult;
-import com.example.codesnippet.service.DemoService;
+import com.example.codesnippet.dubbo.model.DemoMessage;
+import com.example.codesnippet.dubbo.model.ServiceResult;
+import com.example.codesnippet.dubbo.service.DemoService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.dubbo.config.annotation.DubboService;
 

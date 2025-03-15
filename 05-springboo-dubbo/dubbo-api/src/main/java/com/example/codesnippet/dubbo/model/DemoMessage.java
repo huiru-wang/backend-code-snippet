@@ -1,4 +1,4 @@
-package com.example.codesnippet.model;
+package com.example.codesnippet.dubbo.model;
 
 import java.io.Serializable;
 

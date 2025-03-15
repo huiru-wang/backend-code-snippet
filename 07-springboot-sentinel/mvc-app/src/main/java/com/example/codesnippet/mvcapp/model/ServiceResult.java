@@ -1,4 +1,4 @@
-package com.example.codesnippet.model;
+package com.example.codesnippet.mvcapp.model;
 
 import java.io.Serializable;
 
@@ -25,6 +25,7 @@ public class ServiceResult<T> implements Serializable {
         result.setCode(code);
         result.setMessage(message);
         result.setSuccess(false);
+        result.setData(null);
         return result;
     }
 
