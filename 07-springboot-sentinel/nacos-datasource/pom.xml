@@ -7,9 +7,10 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>web-app</artifactId>
+    <artifactId>nacos-datasource</artifactId>
     <packaging>jar</packaging>
-    <name>web-app</name>
+
+    <name>nacos-datasource</name>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -35,12 +36,28 @@
             <artifactId>sentinel-annotation-aspectj</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
+            <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-datasource-nacos</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.alibaba.csp</groupId>
-            <artifactId>sentinel-parameter-flow-control</artifactId>
+            <groupId>com.alibaba.nacos</groupId>
+            <artifactId>nacos-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.nacos</groupId>
+            <artifactId>nacos-common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.nacos</groupId>
+            <artifactId>nacos-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.fastjson2</groupId>
+            <artifactId>fastjson2</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
 </project>

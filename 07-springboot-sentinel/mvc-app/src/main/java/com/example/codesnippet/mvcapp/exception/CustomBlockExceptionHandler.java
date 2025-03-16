@@ -4,13 +4,13 @@ import com.alibaba.csp.sentinel.adapter.spring.webmvc.callback.BlockExceptionHan
 import com.alibaba.csp.sentinel.slots.block.BlockException;
 import com.alibaba.fastjson.JSON;
 import com.example.codesnippet.mvcapp.model.ServiceResult;
-import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@ControllerAdvice
+@Component
 public class CustomBlockExceptionHandler implements BlockExceptionHandler {
 
     @Override
