@@ -88,7 +88,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ClusterModeApplication">
+  <component name="RunManager" selected="Spring Boot.WebApplication">
     <configuration name="ClusterModeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="cluster-mode" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.codesnippet.clustermode.ClusterModeApplication" />
@@ -156,9 +156,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.WebApplication" />
         <item itemvalue="Spring Boot.ClusterModeApplication" />
         <item itemvalue="Spring Boot.NacosDatasourceApplication" />
-        <item itemvalue="Spring Boot.WebApplication" />
         <item itemvalue="Spring Boot.MvcApplication" />
         <item itemvalue="Spring Boot.DubboApplication" />
       </list>
@@ -175,7 +175,7 @@
       <workItem from="1742018735111" duration="21277000" />
       <workItem from="1742049328903" duration="12000" />
       <workItem from="1742112181419" duration="616000" />
-      <workItem from="1742112880105" duration="8801000" />
+      <workItem from="1742112880105" duration="8895000" />
     </task>
     <servers />
   </component>
