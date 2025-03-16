@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="461af959-a131-4361-858e-8056cb0ea81b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cluster-mode/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cluster-mode/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-datasource/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-datasource/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvc-app/src/main/java/com/example/codesnippet/mvcapp/exception/CustomBlockExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/mvc-app/src/main/java/com/example/codesnippet/mvcapp/exception/CustomBlockExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web-app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-app/src/main/java/com/example/codesnippet/webapp/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-app/src/main/java/com/example/codesnippet/webapp/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-app/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/web-app/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +175,7 @@
       <workItem from="1742018735111" duration="21277000" />
       <workItem from="1742049328903" duration="12000" />
       <workItem from="1742112181419" duration="616000" />
-      <workItem from="1742112880105" duration="8721000" />
+      <workItem from="1742112880105" duration="8801000" />
     </task>
     <servers />
   </component>
