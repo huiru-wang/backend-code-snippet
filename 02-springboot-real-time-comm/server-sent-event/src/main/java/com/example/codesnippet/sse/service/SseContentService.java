@@ -48,10 +48,7 @@ public class SseContentService implements InitializingBean {
         SseEmitter emitter = new SseEmitter(60_000L);
         // 注册回调：连接完成或超时时移除emitter
         emitter.onCompletion(() -> emitters.remove(userId));
-        emitter.onTimeout(() -> {
-            emitters.remove(userId);
-            log.info("[{}] session timeout", userId);
-        });
+        emitter.onTimeout(() -> emitters.remove(userId));
         emitters.put(userId, emitter);
         log.info("[{}] SSE Subscribe Success", userId);
 
