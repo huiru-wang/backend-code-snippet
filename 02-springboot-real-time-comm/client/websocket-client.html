@@ -1,56 +1,55 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>WebSocket 聊天示例</title>
-</head>
-<body>
-<div id="messageArea" style="height: 300px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px; margin-bottom: 10px;"></div>
-<input type="text" id="messageInput" placeholder="输入消息..." style="width: 70%; padding: 5px;">
-<button onclick="sendMessage()" style="width: 25%; padding: 5px;">发送</button>
+<html lang="en">
 
-<!-- 引入SockJS和Stomp -->
-<script src="https://cdn.jsdelivr.net/npm/sockjs-client@1.5.0/dist/sockjs.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@stomp/stompjs@6.1.2/dist/bundles/stomp.umd.min.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket Chat</title>
+</head>
+
+<body>
+<input type="text" id="messageInput" placeholder="Type your message">
+<button onclick="sendMessage()">Send</button>
+<div id="messages"></div>
 
 <script>
-    let stompClient = null;
-    const messageArea = document.getElementById('messageArea');
-    const messageInput = document.getElementById('messageInput');
+    const socket = new WebSocket('ws://localhost:8081/ws/userId123');
 
-    // 连接WebSocket
-    function connect() {
-        const socket = new SockJS('/chat-websocket');
-        stompClient = Stomp.over(socket);
+    socket.onopen = function () {
+        console.log('Connected to the server');
+        showMessage('Connected to the server');
+    };
 
-        stompClient.connect({}, (frame) => {
-            console.log('连接成功: ' + frame);
+    socket.onmessage = function (event) {
+        showMessage(event.data);
+    };
 
-            // 订阅消息通道
-            stompClient.subscribe('/topic/messages', (response) => {
-                showMessage(JSON.parse(response.body));
-            });
-        });
-    }
+    socket.onclose = function () {
+        console.log('onclose Disconnected from the server');
+        showMessage("Server Connection onclose");
+    };
 
-    // 显示消息
-    function showMessage(message) {
-        const p = document.createElement('p');
-        p.textContent = message;
-        messageArea.appendChild(p);
-        messageArea.scrollTop = messageArea.scrollHeight;
-    }
+    socket.onerror = function () {
+        console.log('onerror Disconnected from the server');
+        showMessage("Server Connection onerror");
+    };
 
-    // 发送消息
     function sendMessage() {
-        const message = messageInput.value.trim();
-        if (message && stompClient) {
-            stompClient.send("/app/message", {}, JSON.stringify(message));
-            messageInput.value = '';
+        const input = document.getElementById('messageInput');
+        const message = input.value;
+        if (message) {
+            socket.send(message);
+            input.value = '';
         }
     }
 
-    // 初始化连接
-    connect();
+    function showMessage(data) {
+        const messagesDiv = document.getElementById('messages');
+        const messageElement = document.createElement('p');
+        messageElement.textContent = data;
+        messagesDiv.appendChild(messageElement);
+    }
 </script>
 </body>
+
 </html>
