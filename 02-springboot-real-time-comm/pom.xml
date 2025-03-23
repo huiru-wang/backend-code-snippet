@@ -15,6 +15,9 @@
   <name>springboot-real-time-comm</name>
   <modules>
     <module>server-sent-event</module>
+    <module>websocket</module>
+    <module>polling</module>
+    <module>webhook</module>
   </modules>
 
   <properties>
