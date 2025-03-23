@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="461af959-a131-4361-858e-8056cb0ea81b" name="Changes" comment="" />
+    <list default="true" id="461af959-a131-4361-858e-8056cb0ea81b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +59,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2413793",
     "settings.editor.selected.configurable": "File.Encoding",
-    "spring.configuration.checksum": "ecd822e5d59593e946928e351e5519a2",
+    "spring.configuration.checksum": "b8b76d2abe2b05d5426eb8cd677b8f93",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -173,6 +175,7 @@
       <workItem from="1742049328903" duration="12000" />
       <workItem from="1742112181419" duration="616000" />
       <workItem from="1742112880105" duration="8980000" />
+      <workItem from="1742708796156" duration="814000" />
     </task>
     <servers />
   </component>
