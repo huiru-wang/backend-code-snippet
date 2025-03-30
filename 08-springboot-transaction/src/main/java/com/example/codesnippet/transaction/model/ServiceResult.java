@@ -1,6 +1,5 @@
-package com.example.codesnippet.model;
+package com.example.codesnippet.transaction.model;
 
-import com.example.codesnippet.enums.ErrorConstants;
 import lombok.Data;
 
 import java.io.Serializable;
@@ -33,14 +32,6 @@ public class ServiceResult<T> implements Serializable {
         serviceResult.setSuccess(false);
         serviceResult.setErrorCode(errorCode);
         serviceResult.setErrorMessage(errorMsg);
-        return serviceResult;
-    }
-
-    public static <T> ServiceResult<T> fail(ErrorConstants errorConstants){
-        ServiceResult<T> serviceResult = new ServiceResult<>();
-        serviceResult.setSuccess(false);
-        serviceResult.setErrorCode(errorConstants.getErrorCode());
-        serviceResult.setErrorMessage(errorConstants.getErrorMessage());
         return serviceResult;
     }
 }

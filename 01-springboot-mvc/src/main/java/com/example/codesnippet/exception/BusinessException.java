@@ -3,6 +3,9 @@ package com.example.codesnippet.exception;
 import com.example.codesnippet.enums.ErrorConstants;
 import lombok.Getter;
 
+/**
+ * 自定义业务异常
+ */
 @Getter
 public class BusinessException extends RuntimeException {
 

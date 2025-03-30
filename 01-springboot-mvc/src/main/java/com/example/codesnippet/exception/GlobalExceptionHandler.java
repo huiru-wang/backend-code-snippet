@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import java.util.List;
 
 /**
+ * 全局异常处理器
  * 异常流顺序：
  * 方法抛出ex --> aop@AfterThrowing可处理异常 --> @RestControllerAdvice --> interceptor.afterCompletion()方法处理
  */
