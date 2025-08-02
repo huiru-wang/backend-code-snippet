@@ -25,7 +25,7 @@
 
 ## RocketMQ
 
-- 
+[Spring-RocketMQ](https://github.com/huiru-wang/backend-code-snippet/tree/main/09-springboot-rocketmq/src/main/java/com/example/codesnippet/rocketmq)
 
 ## Express-mvc
 
