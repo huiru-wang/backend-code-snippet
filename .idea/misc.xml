@@ -4,9 +4,13 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
+        <option value="$PROJECT_DIR$/05-springboot-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/06-springboot-nacos/pom.xml" />
         <option value="$PROJECT_DIR$/01-springboot-mvc/pom.xml" />
         <option value="$PROJECT_DIR$/00-java-basic/pom.xml" />
-        <option value="$PROJECT_DIR$/10-design-pattern/pom.xml" />
+        <option value="$PROJECT_DIR$/05-springboot-nacos/pom.xml" />
+        <option value="$PROJECT_DIR$/09-springboot-rocketmq/pom.xml" />
+        <option value="$PROJECT_DIR$/04-springboot-kafka/pom.xml" />
       </list>
     </option>
   </component>

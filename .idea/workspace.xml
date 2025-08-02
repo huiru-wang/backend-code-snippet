@@ -4,14 +4,77 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="680efedd-584c-47a3-a34b-b4e028f66520" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/10-design-pattern/src/main/java/com/example/codesnippet/system/multi_tenant/ESignTenantDataSPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-design-pattern/src/main/java/com/example/codesnippet/system/multi_tenant/ESignTenantDataSPIImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-design-pattern/src/main/java/com/example/codesnippet/system/multi_tenant/GenericService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-design-pattern/src/main/java/com/example/codesnippet/system/multi_tenant/HttpUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-design-pattern/src/main/java/com/example/codesnippet/system/multi_tenant/TenantConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10-design-pattern/src/main/java/com/example/codesnippet/system/multi_tenant/TenantConfigFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-springboot-mvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/01-springboot-mvc/pom.xml" afterDir="false" />
+    <list default="true" id="b5de4af5-8003-4ba3-8563-1ed79da7a577" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/backend-code-snippet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00-java-basic/src/main/java/com/example/basic/generic/AnimalShelterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00-java-basic/src/main/java/com/example/basic/generic/GenericDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00-java-basic/src/main/java/com/example/basic/generic/model/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00-java-basic/src/main/java/com/example/basic/generic/model/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00-java-basic/src/main/java/com/example/basic/generic/model/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-springboot-nacos/src/main/java/com/example/codesnippet/nacos/diamond/MyConfig1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-springboot-nacos/src/main/java/com/example/codesnippet/nacos/diamond/MyConfig2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-springboot-dubbo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-springboot-rocketmq/src/main/java/com/example/codesnippet/rocketmq/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-springboot-rocketmq/src/main/java/com/example/codesnippet/rocketmq/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-springboot-rocketmq/src/main/java/com/example/codesnippet/rocketmq/listener/MessageDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-springboot-rocketmq/src/main/java/com/example/codesnippet/rocketmq/listener/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-springboot-rocketmq/src/main/java/com/example/codesnippet/rocketmq/listener/RetryListenerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-springboot-rocketmq/src/main/java/com/example/codesnippet/rocketmq/listener/SimpleListenerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-springboot-rocketmq/src/main/java/com/example/codesnippet/rocketmq/manage/RocketMQProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/mysql/docker部署.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/redis/docker部署.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/rocketmq/docker部署.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-springboot-kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/04-springboot-kafka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-dubbo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/05-springboot-nacos/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-dubbo/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/05-springboot-nacos/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-dubbo/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-dubbo/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-dubbo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-dubbo/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-dubbo/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/05-springboot-nacos/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-dubbo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-dubbo/dubbo-api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-dubbo/dubbo-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/dubbo-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-dubbo/dubbo-api/src/main/java/com/example/codesnippet/dubbo/model/DemoMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/dubbo-api/src/main/java/com/example/codesnippet/dubbo/model/DemoMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-dubbo/dubbo-api/src/main/java/com/example/codesnippet/dubbo/model/ServiceResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/dubbo-api/src/main/java/com/example/codesnippet/dubbo/model/ServiceResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-dubbo/dubbo-api/src/main/java/com/example/codesnippet/dubbo/service/DemoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/dubbo-api/src/main/java/com/example/codesnippet/dubbo/service/DemoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-dubbo/dubbo-consumer/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/dubbo-api/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-dubbo/dubbo-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/dubbo-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-dubbo/dubbo-consumer/src/main/java/com/example/codesnippet/dubboconsumer/DubboConsumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/dubbo-consumer/src/main/java/com/example/codesnippet/dubboconsumer/DubboConsumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-dubbo/dubbo-consumer/src/main/java/com/example/codesnippet/dubboconsumer/config/TraceFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/dubbo-consumer/src/main/java/com/example/codesnippet/dubboconsumer/config/TraceFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-dubbo/dubbo-consumer/src/main/java/com/example/codesnippet/dubboconsumer/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/dubbo-consumer/src/main/java/com/example/codesnippet/dubboconsumer/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-dubbo/dubbo-consumer/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/dubbo-consumer/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-dubbo/dubbo-provider/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/dubbo-consumer/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-dubbo/dubbo-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/dubbo-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-dubbo/dubbo-provider/src/main/java/com/example/codesnippet/dubboprovider/DubboProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/dubbo-provider/src/main/java/com/example/codesnippet/dubboprovider/DubboProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-dubbo/dubbo-provider/src/main/java/com/example/codesnippet/dubboprovider/config/Executors.java" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/dubbo-provider/src/main/java/com/example/codesnippet/dubboprovider/config/Executors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-dubbo/dubbo-provider/src/main/java/com/example/codesnippet/dubboprovider/filter/LogFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/dubbo-provider/src/main/java/com/example/codesnippet/dubboprovider/filter/LogFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-dubbo/dubbo-provider/src/main/java/com/example/codesnippet/dubboprovider/filter/TraceFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/dubbo-provider/src/main/java/com/example/codesnippet/dubboprovider/filter/TraceFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-dubbo/dubbo-provider/src/main/java/com/example/codesnippet/dubboprovider/service/impl/DemoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/dubbo-provider/src/main/java/com/example/codesnippet/dubboprovider/service/impl/DemoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-dubbo/dubbo-provider/src/main/resources/META-INF/dubbo/org.apache.dubbo.rpc.Filter" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/dubbo-provider/src/main/resources/META-INF/dubbo/org.apache.dubbo.rpc.Filter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-dubbo/dubbo-provider/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/dubbo-provider/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-dubbo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-springboot-nacos/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/dubbo-provider/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-springboot-nacos/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-springboot-nacos/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/05-springboot-nacos/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-springboot-nacos/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/05-springboot-nacos/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-springboot-nacos/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-springboot-nacos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/05-springboot-nacos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-springboot-nacos/src/main/java/com/example/codesnippet/nacos/NacosApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-springboot-nacos/src/main/java/com/example/codesnippet/nacos/NacosApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-springboot-nacos/src/main/java/com/example/codesnippet/nacos/config/CustomConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-springboot-nacos/src/main/java/com/example/codesnippet/nacos/config/NacosConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-springboot-nacos/src/main/java/com/example/codesnippet/nacos/config/NacosConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-springboot-nacos/src/main/java/com/example/codesnippet/nacos/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-springboot-nacos/src/main/java/com/example/codesnippet/nacos/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-springboot-nacos/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/05-springboot-nacos/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/middleware-config.md" beforeDir="false" afterPath="$PROJECT_DIR$/config/middleware-config.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/sql/dml.sql" beforeDir="false" afterPath="$PROJECT_DIR$/config/mysql/dml.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +84,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -29,10 +91,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
-}</component>
-  <component name="ProjectId" id="307cmmAbB3myo5prDiG4kg0Pc6r" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="30iatpbHtAhTjhkaInZ5m8GgQah" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -40,22 +102,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/wanghuiru/Notes/backend-code-snippet&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Application.executor": "Debug",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/wanghuiru/Notes/backend-code-snippet",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.sourceCode",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config/mysql" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="09-springboot-rocketmq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.codesnippet.rocketmq.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -67,27 +152,20 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="680efedd-584c-47a3-a34b-b4e028f66520" name="Changes" comment="" />
-      <created>1752982212889</created>
+      <changelist id="b5de4af5-8003-4ba3-8563-1ed79da7a577" name="Changes" comment="" />
+      <created>1754113065001</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1752982212889</updated>
-      <workItem from="1752982214732" duration="6779000" />
+      <updated>1754113065001</updated>
+      <workItem from="1754113066049" duration="22250000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/6.2.0/spring-web-6.2.0.jar!/org/springframework/web/bind/annotation/RestController.class</url>
-          <line>16</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

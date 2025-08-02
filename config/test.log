@@ -1,0 +1,221 @@
+09:31:27,377 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.LoggerContext[default] - This is logback-classic version 1.3.5-rocketmq
+09:31:27,392 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.LoggerContext[default] - Found resource [/home/rocketmq/rocketmq-5.3.0/conf/rmq.broker.logback.xml] at [file:/home/rocketmq/rocketmq-5.3.0/conf/rmq.broker.logback.xml]
+09:31:27,492 |-WARN in org.apache.rocketmq.logging.ch.qos.logback.classic.joran.action.LevelAction - <level> element is deprecated. Near [level] on line 700
+09:31:27,492 |-WARN in org.apache.rocketmq.logging.ch.qos.logback.classic.joran.action.LevelAction - Please use "level" attribute within <logger> or <root> elements instead.
+09:31:27,528 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.ConfigurationModelHandler - Registering a new ReconfigureOnChangeTask ReconfigureOnChangeTask(born:1754127087528)
+09:31:27,528 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.ConfigurationModelHandler - Will scan for changes in [file:/home/rocketmq/rocketmq-5.3.0/conf/rmq.broker.logback.xml] 
+09:31:27,528 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.ConfigurationModelHandler - Setting ReconfigureOnChangeTask scanning period to 30 seconds
+09:31:27,531 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [DefaultSiftingAppender_inner]
+09:31:27,531 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.SiftingAppender]
+09:31:27,538 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.MDCBasedDiscriminator] for [discriminator] property
+09:31:27,542 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [DefaultSiftingAppender]
+09:31:27,542 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+09:31:27,543 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [DefaultSiftingAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[DefaultSiftingAppender]
+09:31:27,543 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[DefaultSiftingAppender] - Attaching appender named [DefaultSiftingAppender_inner] to AsyncAppender.
+09:31:27,543 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[DefaultSiftingAppender] - Setting discardingThreshold to 51
+09:31:27,543 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqBrokerSiftingAppender_inner]
+09:31:27,543 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.SiftingAppender]
+09:31:27,543 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.MDCBasedDiscriminator] for [discriminator] property
+09:31:27,543 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqBrokerSiftingAppender]
+09:31:27,543 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+09:31:27,543 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqBrokerSiftingAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqBrokerSiftingAppender]
+09:31:27,543 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqBrokerSiftingAppender] - Attaching appender named [RocketmqBrokerSiftingAppender_inner] to AsyncAppender.
+09:31:27,543 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqBrokerSiftingAppender] - Setting discardingThreshold to 51
+09:31:27,543 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqProtectionSiftingAppender_inner]
+09:31:27,543 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.SiftingAppender]
+09:31:27,543 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.MDCBasedDiscriminator] for [discriminator] property
+09:31:27,543 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqProtectionSiftingAppender]
+09:31:27,543 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+09:31:27,543 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqProtectionSiftingAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqProtectionSiftingAppender]
+09:31:27,543 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqProtectionSiftingAppender] - Attaching appender named [RocketmqProtectionSiftingAppender_inner] to AsyncAppender.
+09:31:27,543 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqProtectionSiftingAppender] - Setting discardingThreshold to 51
+09:31:27,544 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqWaterMarkSiftingAppender_inner]
+09:31:27,544 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.SiftingAppender]
+09:31:27,544 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.MDCBasedDiscriminator] for [discriminator] property
+09:31:27,544 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqWaterMarkSiftingAppender]
+09:31:27,544 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+09:31:27,544 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqWaterMarkSiftingAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqWaterMarkSiftingAppender]
+09:31:27,544 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqWaterMarkSiftingAppender] - Attaching appender named [RocketmqWaterMarkSiftingAppender_inner] to AsyncAppender.
+09:31:27,544 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqWaterMarkSiftingAppender] - Setting discardingThreshold to 51
+09:31:27,544 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqRocksDBSiftingAppender_inner]
+09:31:27,544 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.SiftingAppender]
+09:31:27,544 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.MDCBasedDiscriminator] for [discriminator] property
+09:31:27,544 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqRocksDBSiftingAppender]
+09:31:27,544 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+09:31:27,544 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqRocksDBSiftingAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqRocksDBSiftingAppender]
+09:31:27,544 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqRocksDBSiftingAppender] - Attaching appender named [RocketmqRocksDBSiftingAppender_inner] to AsyncAppender.
+09:31:27,544 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqRocksDBSiftingAppender] - Setting discardingThreshold to 51
+09:31:27,544 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqStoreSiftingAppender_inner]
+09:31:27,544 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.SiftingAppender]
+09:31:27,544 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.MDCBasedDiscriminator] for [discriminator] property
+09:31:27,544 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqStoreSiftingAppender]
+09:31:27,544 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+09:31:27,546 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqStoreSiftingAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqStoreSiftingAppender]
+09:31:27,546 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqStoreSiftingAppender] - Attaching appender named [RocketmqStoreSiftingAppender_inner] to AsyncAppender.
+09:31:27,546 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqStoreSiftingAppender] - Setting discardingThreshold to 51
+09:31:27,546 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqTieredStoreSiftingAppender_inner]
+09:31:27,546 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.SiftingAppender]
+09:31:27,546 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.MDCBasedDiscriminator] for [discriminator] property
+09:31:27,547 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqTieredStoreSiftingAppender]
+09:31:27,547 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+09:31:27,547 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqTieredStoreSiftingAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqTieredStoreSiftingAppender]
+09:31:27,547 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqTieredStoreSiftingAppender] - Attaching appender named [RocketmqTieredStoreSiftingAppender_inner] to AsyncAppender.
+09:31:27,547 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqTieredStoreSiftingAppender] - Setting discardingThreshold to 51
+09:31:27,547 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqTrafficSiftingAppender_inner]
+09:31:27,547 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.SiftingAppender]
+09:31:27,547 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.MDCBasedDiscriminator] for [discriminator] property
+09:31:27,547 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqTrafficSiftingAppender]
+09:31:27,547 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+09:31:27,547 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqTrafficSiftingAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqTrafficSiftingAppender]
+09:31:27,547 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqTrafficSiftingAppender] - Attaching appender named [RocketmqTrafficSiftingAppender_inner] to AsyncAppender.
+09:31:27,547 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqTrafficSiftingAppender] - Setting discardingThreshold to 51
+09:31:27,547 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqRemotingSiftingAppender_inner]
+09:31:27,547 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.SiftingAppender]
+09:31:27,547 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.MDCBasedDiscriminator] for [discriminator] property
+09:31:27,547 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqRemotingSiftingAppender]
+09:31:27,547 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+09:31:27,547 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqRemotingSiftingAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqRemotingSiftingAppender]
+09:31:27,547 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqRemotingSiftingAppender] - Attaching appender named [RocketmqRemotingSiftingAppender_inner] to AsyncAppender.
+09:31:27,547 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqRemotingSiftingAppender] - Setting discardingThreshold to 51
+09:31:27,547 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqStoreErrorSiftingAppender_inner]
+09:31:27,547 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.SiftingAppender]
+09:31:27,547 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.MDCBasedDiscriminator] for [discriminator] property
+09:31:27,548 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqStoreErrorSiftingAppender]
+09:31:27,548 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+09:31:27,548 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqStoreErrorSiftingAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqStoreErrorSiftingAppender]
+09:31:27,548 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqStoreErrorSiftingAppender] - Attaching appender named [RocketmqStoreErrorSiftingAppender_inner] to AsyncAppender.
+09:31:27,548 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqStoreErrorSiftingAppender] - Setting discardingThreshold to 51
+09:31:27,548 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqTransactionSiftingAppender_inner]
+09:31:27,548 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.SiftingAppender]
+09:31:27,548 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.MDCBasedDiscriminator] for [discriminator] property
+09:31:27,548 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqTransactionSiftingAppender]
+09:31:27,548 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+09:31:27,548 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqTransactionSiftingAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqTransactionSiftingAppender]
+09:31:27,548 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqTransactionSiftingAppender] - Attaching appender named [RocketmqTransactionSiftingAppender_inner] to AsyncAppender.
+09:31:27,548 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqTransactionSiftingAppender] - Setting discardingThreshold to 51
+09:31:27,548 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqRebalanceLockSiftingAppender_inner]
+09:31:27,548 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.SiftingAppender]
+09:31:27,548 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.MDCBasedDiscriminator] for [discriminator] property
+09:31:27,548 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqRebalanceLockSiftingAppender]
+09:31:27,548 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+09:31:27,548 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqRebalanceLockSiftingAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqRebalanceLockSiftingAppender]
+09:31:27,548 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqRebalanceLockSiftingAppender] - Attaching appender named [RocketmqRebalanceLockSiftingAppender_inner] to AsyncAppender.
+09:31:27,548 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqRebalanceLockSiftingAppender] - Setting discardingThreshold to 51
+09:31:27,548 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqFilterSiftingAppender_inner]
+09:31:27,548 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.SiftingAppender]
+09:31:27,548 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.MDCBasedDiscriminator] for [discriminator] property
+09:31:27,548 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqRebalanceLockSiftingAppender]
+09:31:27,548 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+09:31:27,549 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqFilterSiftingAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqRebalanceLockSiftingAppender]
+09:31:27,549 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqRebalanceLockSiftingAppender] - Attaching appender named [RocketmqFilterSiftingAppender_inner] to AsyncAppender.
+09:31:27,549 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqRebalanceLockSiftingAppender] - Setting discardingThreshold to 51
+09:31:27,549 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqStatsSiftingAppender_inner]
+09:31:27,549 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.SiftingAppender]
+09:31:27,549 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.MDCBasedDiscriminator] for [discriminator] property
+09:31:27,549 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqStatsSiftingAppender]
+09:31:27,549 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+09:31:27,549 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqStatsSiftingAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqStatsSiftingAppender]
+09:31:27,549 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqStatsSiftingAppender] - Attaching appender named [RocketmqStatsSiftingAppender_inner] to AsyncAppender.
+09:31:27,549 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqStatsSiftingAppender] - Setting discardingThreshold to 51
+09:31:27,549 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqCommercialSiftingAppender_inner]
+09:31:27,549 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.SiftingAppender]
+09:31:27,549 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.MDCBasedDiscriminator] for [discriminator] property
+09:31:27,549 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqCommercialSiftingAppender]
+09:31:27,549 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+09:31:27,549 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqCommercialSiftingAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqCommercialSiftingAppender]
+09:31:27,549 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqCommercialSiftingAppender] - Attaching appender named [RocketmqCommercialSiftingAppender_inner] to AsyncAppender.
+09:31:27,549 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqCommercialSiftingAppender] - Setting discardingThreshold to 51
+09:31:27,549 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqPopSiftingAppender_inner]
+09:31:27,549 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.SiftingAppender]
+09:31:27,551 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.MDCBasedDiscriminator] for [discriminator] property
+09:31:27,552 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqPopSiftingAppender]
+09:31:27,552 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+09:31:27,552 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqPopSiftingAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqPopSiftingAppender]
+09:31:27,552 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqPopSiftingAppender] - Attaching appender named [RocketmqPopSiftingAppender_inner] to AsyncAppender.
+09:31:27,552 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqPopSiftingAppender] - Setting discardingThreshold to 51
+09:31:27,552 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqColdCtrSiftingAppender]
+09:31:27,552 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.SiftingAppender]
+09:31:27,552 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.MDCBasedDiscriminator] for [discriminator] property
+09:31:27,552 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqBrokerMetricsSiftingAppender_inner]
+09:31:27,552 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.SiftingAppender]
+09:31:27,552 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.MDCBasedDiscriminator] for [discriminator] property
+09:31:27,552 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqBrokerMetricsSiftingAppender]
+09:31:27,552 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+09:31:27,552 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqBrokerMetricsSiftingAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqBrokerMetricsSiftingAppender]
+09:31:27,552 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqBrokerMetricsSiftingAppender] - Attaching appender named [RocketmqBrokerMetricsSiftingAppender_inner] to AsyncAppender.
+09:31:27,552 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqBrokerMetricsSiftingAppender] - Setting discardingThreshold to 51
+09:31:27,552 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqAuthAuditSiftingAppender_inner]
+09:31:27,552 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.SiftingAppender]
+09:31:27,553 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.sift.MDCBasedDiscriminator] for [discriminator] property
+09:31:27,553 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [RocketmqAuthAuditSiftingAppender]
+09:31:27,553 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender]
+09:31:27,553 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqAuthAuditSiftingAppender_inner] to org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqAuthAuditSiftingAppender]
+09:31:27,553 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqAuthAuditSiftingAppender] - Attaching appender named [RocketmqAuthAuditSiftingAppender_inner] to AsyncAppender.
+09:31:27,553 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.AsyncAppender[RocketmqAuthAuditSiftingAppender] - Setting discardingThreshold to 51
+09:31:27,553 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [STDOUT]
+09:31:27,553 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [org.apache.rocketmq.logging.ch.qos.logback.core.ConsoleAppender]
+09:31:27,554 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [org.apache.rocketmq.logging.ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+09:31:27,573 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqBroker] to INFO
+09:31:27,573 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqBroker] to false
+09:31:27,573 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqBrokerSiftingAppender] to Logger[RocketmqBroker]
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqProtection] to INFO
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqProtection] to false
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqProtectionSiftingAppender] to Logger[RocketmqProtection]
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqWaterMark] to INFO
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqWaterMark] to false
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqWaterMarkSiftingAppender] to Logger[RocketmqWaterMark]
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqCommon] to INFO
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqCommon] to false
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqBrokerSiftingAppender] to Logger[RocketmqCommon]
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqRocksDB] to INFO
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqRocksDB] to false
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqRocksDBSiftingAppender] to Logger[RocketmqRocksDB]
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqStore] to INFO
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqStore] to false
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqStoreSiftingAppender] to Logger[RocketmqStore]
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqStoreError] to INFO
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqStoreError] to false
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqStoreErrorSiftingAppender] to Logger[RocketmqStoreError]
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqTieredStore] to INFO
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqTieredStore] to false
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqTieredStoreSiftingAppender] to Logger[RocketmqTieredStore]
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqTransaction] to INFO
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqTransaction] to false
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqTransactionSiftingAppender] to Logger[RocketmqTransaction]
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqRebalanceLock] to INFO
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqRebalanceLock] to false
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqRebalanceLockSiftingAppender] to Logger[RocketmqRebalanceLock]
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqRemoting] to INFO
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqRemoting] to false
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqRemotingSiftingAppender] to Logger[RocketmqRemoting]
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqStats] to INFO
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqStats] to false
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqStatsSiftingAppender] to Logger[RocketmqStats]
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqCommercial] to INFO
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqCommercial] to false
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqCommercialSiftingAppender] to Logger[RocketmqCommercial]
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqConsole] to INFO
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqConsole] to false
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [STDOUT] to Logger[RocketmqConsole]
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqPop] to INFO
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqPop] to false
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqPopSiftingAppender] to Logger[RocketmqPop]
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqColdCtr] to false
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LevelModelHandler - RocketmqColdCtr level set to INFO
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqColdCtrSiftingAppender] to Logger[RocketmqColdCtr]
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqTraffic] to INFO
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqTraffic] to false
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqTrafficSiftingAppender] to Logger[RocketmqTraffic]
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [io.opentelemetry.exporter.logging.otlp.OtlpJsonLoggingMetricExporter] to INFO
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [io.opentelemetry.exporter.logging.otlp.OtlpJsonLoggingMetricExporter] to false
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqBrokerMetricsSiftingAppender] to Logger[io.opentelemetry.exporter.logging.otlp.OtlpJsonLoggingMetricExporter]
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [io.opentelemetry.exporter.logging.LoggingMetricExporter] to INFO
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [io.opentelemetry.exporter.logging.LoggingMetricExporter] to false
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqBrokerMetricsSiftingAppender] to Logger[io.opentelemetry.exporter.logging.LoggingMetricExporter]
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting level of logger [RocketmqAuthAudit] to INFO
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.LoggerModelHandler - Setting additivity of logger [RocketmqAuthAudit] to false
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [RocketmqAuthAuditSiftingAppender] to Logger[RocketmqAuthAudit]
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.classic.model.processor.RootLoggerModelHandler - Setting level of ROOT logger to INFO
+09:31:27,574 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [DefaultSiftingAppender] to Logger[ROOT]
+09:31:27,575 |-INFO in org.apache.rocketmq.logging.ch.qos.logback.core.model.processor.DefaultProcessor@13c27452 - End of configuration.
+09:31:27,575 |-INFO in org.apache.rocketmq.common.logging.JoranConfiguratorExt@262b2c86 - Registering current configuration as safe fallback point

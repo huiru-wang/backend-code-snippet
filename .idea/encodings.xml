@@ -4,7 +4,19 @@
     <file url="file://$PROJECT_DIR$/00-java-basic/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/00-java-basic/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/01-springboot-mvc/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/10-design-pattern/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/10-design-pattern/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-springboot-kafka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-springboot-nacos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-springboot-nacos/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-springboot-dubbo/dubbo-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-springboot-dubbo/dubbo-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-springboot-dubbo/dubbo-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-springboot-dubbo/dubbo-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-springboot-dubbo/dubbo-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-springboot-dubbo/dubbo-provider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-springboot-dubbo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-springboot-dubbo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-springboot-nacos/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-springboot-nacos/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09-springboot-rocketmq/src/main/java" charset="UTF-8" />
   </component>
 </project>
