@@ -23,6 +23,10 @@
 - [Spring-Transaction](https://github.com/huiru-wang/backend-code-snippet/tree/main/01-springboot-mvc#springboot-transaction)
 - [Spring-Redis 各数据结构使用](https://github.com/huiru-wang/backend-code-snippet/tree/main/01-springboot-mvc#springboot-redis)
 
+## RocketMQ
+
+- 
+
 ## Express-mvc
 
 [Express + Sequelize ORM + MySQL](https://github.com/huiru-wang/backend-code-snippet/tree/main/30-express-mvc#1-%E5%87%86%E5%A4%87%E9%A1%B9%E7%9B%AE)
