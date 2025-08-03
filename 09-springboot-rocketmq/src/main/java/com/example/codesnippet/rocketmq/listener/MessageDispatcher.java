@@ -1,8 +1,8 @@
 package com.example.codesnippet.rocketmq.listener;
 
+import com.example.codesnippet.rocketmq.annotation.CustomRocketMQListener;
 import com.example.codesnippet.rocketmq.exception.BusinessException;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.lang3.StringUtils;
 import org.apache.rocketmq.client.consumer.DefaultMQPushConsumer;
 import org.apache.rocketmq.client.consumer.MessageSelector;
 import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyContext;
@@ -17,8 +17,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
 
 import java.util.List;
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
 
 @Slf4j
 @Component
@@ -40,11 +38,22 @@ public class MessageDispatcher {
             String topic = messageService.topic();
             String tags = messageService.tags();
 
+            Class<?> clazz = messageService.getClass();
+            if (clazz.isAnnotationPresent(CustomRocketMQListener.class)) {
+                // TODO 解析注解参数
+                CustomRocketMQListener annotation = clazz.getAnnotation(CustomRocketMQListener.class);
+            }
+
             // 初始化并开启消费者监听
+            // 默认的Consumer类型为：MQPushConsumer
             DefaultMQPushConsumer consumer = new DefaultMQPushConsumer();
             consumer.setConsumerGroup(consumerGroup);
             consumer.setNamesrvAddr(NAMESERVER_ADDR);
             consumer.setConsumeFromWhere(ConsumeFromWhere.CONSUME_FROM_LAST_OFFSET);
+            // consumer.setConsumeThreadMax();
+            // 控制消费速率
+            consumer.setPullBatchSize(100);
+            consumer.setPullInterval(0);
             consumer.subscribe(topic, MessageSelector.byTag(tags));
             consumer.registerMessageListener(new MessageListenerConcurrently() {
                 @Override

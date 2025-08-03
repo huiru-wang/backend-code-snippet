@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/05-springboot-nacos/pom.xml" />
         <option value="$PROJECT_DIR$/09-springboot-rocketmq/pom.xml" />
         <option value="$PROJECT_DIR$/04-springboot-kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/06-springboot-dubbo/pom.xml" />
       </list>
     </option>
   </component>

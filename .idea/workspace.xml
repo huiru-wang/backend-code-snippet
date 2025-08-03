@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5de4af5-8003-4ba3-8563-1ed79da7a577" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/05-springboot-nacos/src/main/java/com/example/codesnippet/nacos/config/DynamicConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-springboot-nacos/src/main/java/com/example/codesnippet/nacos/config/DynamicSwitch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-springboot-rocketmq/src/main/java/com/example/codesnippet/rocketmq/annotation/CustomRocketMQListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09-springboot-rocketmq/src/main/java/com/example/codesnippet/rocketmq/listener/CustomListenerDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-nacos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/05-springboot-nacos/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-nacos/src/main/java/com/example/codesnippet/nacos/NacosApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-springboot-nacos/src/main/java/com/example/codesnippet/nacos/NacosApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-nacos/src/main/java/com/example/codesnippet/nacos/config/NacosConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-nacos/src/main/java/com/example/codesnippet/nacos/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/05-springboot-nacos/src/main/java/com/example/codesnippet/nacos/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-nacos/src/main/java/com/example/codesnippet/nacos/diamond/MyConfig1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-nacos/src/main/java/com/example/codesnippet/nacos/diamond/MyConfig2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-springboot-nacos/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/05-springboot-nacos/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-springboot-rocketmq/src/main/java/com/example/codesnippet/rocketmq/listener/MessageDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/09-springboot-rocketmq/src/main/java/com/example/codesnippet/rocketmq/listener/MessageDispatcher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +29,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -23,9 +37,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="30iatpbHtAhTjhkaInZ5m8GgQah" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -44,6 +58,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.Application.executor": "Debug",
+    "Spring Boot.NacosApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/wanghuiru/Notes/backend-code-snippet",
@@ -67,7 +82,7 @@
       <recent name="$PROJECT_DIR$/config/mysql" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.NacosApplication">
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="09-springboot-rocketmq" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.codesnippet.rocketmq.Application" />
@@ -75,6 +90,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NacosApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="05-springboot-nacos" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.codesnippet.nacos.NacosApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.codesnippet.nacos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.NacosApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -92,7 +125,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1754113065001</updated>
-      <workItem from="1754113066049" duration="22556000" />
+      <workItem from="1754113066049" duration="22659000" />
+      <workItem from="1754154003628" duration="10239000" />
     </task>
     <servers />
   </component>

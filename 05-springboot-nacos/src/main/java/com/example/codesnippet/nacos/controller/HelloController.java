@@ -1,23 +1,32 @@
 package com.example.codesnippet.nacos.controller;
 
-import com.example.codesnippet.nacos.diamond.MyConfig1;
-import com.example.codesnippet.nacos.diamond.MyConfig2;
-import jakarta.annotation.Resource;
+import com.example.codesnippet.nacos.config.DynamicConfig;
+import com.example.codesnippet.nacos.config.DynamicSwitch;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController("/")
+@RestController
+@RequestMapping("/nacos/config")
 public class HelloController {
 
-    @Resource
-    private MyConfig1 myConfig1;
+    private final DynamicConfig dynamicConfig;
 
-    @Resource
-    private MyConfig2 myConfig2;
+    @Autowired
+    public HelloController(DynamicConfig dynamicConfig) {
+        this.dynamicConfig = dynamicConfig;
+    }
 
-    @GetMapping("config1")
-    public String getCustomConfig(@RequestParam("key") String key) {
-        return myConfig1.get(key);
+    @GetMapping("/downgrade")
+    public Boolean getCustomKey() {
+        return DynamicSwitch.downgrade;
+    }
+
+    @GetMapping("/dynamic")
+    @ResponseBody
+    public DynamicConfig.CustomConfig getCustomConfig() {
+        return dynamicConfig.getCustomConfig();
     }
 }

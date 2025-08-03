@@ -7,19 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="05-springboot-nacos" />
         <module name="09-springboot-rocketmq" />
+        <module name="dubbo-provider" />
+        <module name="05-springboot-nacos" />
         <module name="04-springboot-kafka" />
         <module name="01-springboot-mvc" />
         <module name="00-java-basic" />
+        <module name="dubbo-api" />
+        <module name="dubbo-consumer" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="06-springboot-dubbo" target="17" />
-      <module name="dubbo-api" target="17" />
-      <module name="dubbo-consumer" target="17" />
-      <module name="dubbo-provider" target="17" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
