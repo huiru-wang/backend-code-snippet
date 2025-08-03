@@ -1,6 +1,6 @@
 package com.example.codesnippet.rocketmq.controller;
 
-import com.example.codesnippet.rocketmq.manage.RocketMQProducer;
+import com.example.codesnippet.rocketmq.manager.RocketMQProducer;
 import jakarta.annotation.Resource;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

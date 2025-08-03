@@ -3,9 +3,11 @@ spring:
     name: 05-springboot-nacos
   config:
     import:
+      # 动态配置导入
       - optional:nacos:${spring.application.name}.${spring.cloud.nacos.config.file-extension}
   cloud:
     nacos:
+      # nacos控制台配置用户名、密码
       username: nacos
       password: nacos
       config:

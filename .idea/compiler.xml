@@ -7,11 +7,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="09-springboot-rocketmq" />
-        <module name="dubbo-provider" />
+        <module name="mvc-app" />
+        <module name="cluster-mode" />
+        <module name="dubbo-app" />
+        <module name="nacos-datasource" />
         <module name="05-springboot-nacos" />
         <module name="04-springboot-kafka" />
+        <module name="03-springboot-redis" />
         <module name="01-springboot-mvc" />
+        <module name="09-springboot-rocketmq" />
+        <module name="web-app" />
+        <module name="dubbo-provider" />
         <module name="00-java-basic" />
         <module name="dubbo-api" />
         <module name="dubbo-consumer" />
@@ -21,6 +27,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="01-springboot-mvc" options="-parameters" />
+      <module name="03-springboot-redis" options="-parameters" />
       <module name="04-springboot-kafka" options="-parameters" />
       <module name="05-springboot-nacos" options="-parameters" />
       <module name="09-springboot-rocketmq" options="-parameters" />

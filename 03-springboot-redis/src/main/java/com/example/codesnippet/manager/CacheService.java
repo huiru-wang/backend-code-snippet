@@ -1,4 +1,4 @@
-package com.example.codesnippet.manage;
+package com.example.codesnippet.manager;
 
 import org.springframework.stereotype.Component;
 

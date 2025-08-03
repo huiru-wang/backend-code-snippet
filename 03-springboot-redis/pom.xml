@@ -5,11 +5,11 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.4.1</version>
+        <version>3.2.0</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>code-snippet</artifactId>
+    <artifactId>03-springboot-redis</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>03-springboot-redis</name>
     <description>03-springboot-redis</description>
@@ -39,12 +39,6 @@
             </exclusions>
         </dependency>
 
-        <!--====================  Aop  =====================-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-aop</artifactId>
-        </dependency>
-
         <!--====================  Redis: starter, 连接池  =====================-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -61,6 +55,13 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
+        </dependency>
+
+        <!-- Redisson -->
+        <dependency>
+            <groupId>org.redisson</groupId>
+            <artifactId>redisson-spring-boot-starter</artifactId>
+            <version>3.38.1</version>
         </dependency>
 
         <!--================== apache commons-lang3 ==================-->

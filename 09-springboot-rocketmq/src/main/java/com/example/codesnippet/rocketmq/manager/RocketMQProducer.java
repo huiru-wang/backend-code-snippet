@@ -1,4 +1,4 @@
-package com.example.codesnippet.rocketmq.manage;
+package com.example.codesnippet.rocketmq.manager;
 
 import jakarta.annotation.Resource;
 import org.apache.rocketmq.client.producer.SendCallback;

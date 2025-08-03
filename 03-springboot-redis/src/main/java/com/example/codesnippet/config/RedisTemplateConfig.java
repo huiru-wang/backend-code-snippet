@@ -5,6 +5,7 @@ import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.annotation.Resource;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -20,11 +21,7 @@ import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 @Configuration
-@EnableCaching
 public class RedisTemplateConfig {
-
-    @Resource
-    private LettuceConnectionFactory lettuceConnectionFactory;
 
     /**
      * 配置redisTemplate：
@@ -35,8 +32,13 @@ public class RedisTemplateConfig {
      */
     @Bean
     public <T> RedisTemplate<String, T> redisTemplate() {
+
+        LettuceConnectionFactory lettuceConnectionFactory = new LettuceConnectionFactory();
+        lettuceConnectionFactory.afterPropertiesSet();
+
         RedisTemplate<String, T> template = new RedisTemplate<>();
-        Jackson2JsonRedisSerializer<Object> serializer = new Jackson2JsonRedisSerializer<>(createObjectMapper(), Object.class);
+        Jackson2JsonRedisSerializer<Object> serializer =
+                new Jackson2JsonRedisSerializer<>(createObjectMapper(), Object.class);
         // 设置key的序列化方式
         template.setKeySerializer(serializer);
         // 设置value的序列化方式

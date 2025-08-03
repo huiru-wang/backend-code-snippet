@@ -1,4 +1,4 @@
-package com.example.codesnippet.kafka.manage;
+package com.example.codesnippet.kafka.manager;
 
 import jakarta.annotation.Resource;
 import org.springframework.kafka.core.KafkaTemplate;
