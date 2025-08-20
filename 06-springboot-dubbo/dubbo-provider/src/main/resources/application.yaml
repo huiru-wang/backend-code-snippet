@@ -9,7 +9,7 @@ dubbo:
     port: -1
   registry:
     register: true
-    address: nacos://127.0.0.1:8848?namespace=00079ffa-7e3e-4d31-861e-a807d1cdeaef
+    address: nacos://192.168.1.3:8848?namespace=2d7ea377-de1a-4496-9920-fa4c5c6a65e5
     register-mode: instance
   provider:
     async: false

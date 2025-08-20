@@ -1,13 +1,21 @@
 package com.example.codesnippet.config;
 
+import com.example.codesnippet.constants.RedisEventTopic;
+import com.example.codesnippet.model.StockAlertEvent;
+import com.example.codesnippet.subscribe.StockAlertSubscriber;
+import lombok.extern.slf4j.Slf4j;
 import org.redisson.Redisson;
+import org.redisson.api.RTopic;
 import org.redisson.api.RedissonClient;
 import org.redisson.config.Config;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.data.redis.RedisProperties;
+import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.event.EventListener;
 
+@Slf4j
 @Configuration
 public class RedissonConfig {
 

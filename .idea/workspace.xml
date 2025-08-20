@@ -5,22 +5,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5de4af5-8003-4ba3-8563-1ed79da7a577" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/03-springboot-redis/src/main/java/com/example/codesnippet/config/RedissonConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-springboot-redis/src/main/java/com/example/codesnippet/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/03-springboot-redis/src/main/java/com/example/codesnippet/manager/RedissonTestService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-springboot-redis/src/main/java/com/example/codesnippet/config/PubSubscribeConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-springboot-redis/src/main/java/com/example/codesnippet/constants/RedisEventTopic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-springboot-redis/src/main/java/com/example/codesnippet/manager/PublishService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-springboot-redis/src/main/java/com/example/codesnippet/model/StockAlertEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-springboot-redis/src/main/java/com/example/codesnippet/subscribe/StockAlertSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-springboot-redis/src/main/java/com/example/codesnippet/subscribe/StockPriceSubscriber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-springboot-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/03-springboot-redis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-springboot-redis/src/main/java/com/example/codesnippet/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-springboot-redis/src/main/java/com/example/codesnippet/RedisApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-springboot-redis/src/main/java/com/example/codesnippet/config/RedisTemplateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-springboot-redis/src/main/java/com/example/codesnippet/config/RedisTemplateConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-springboot-redis/src/main/java/com/example/codesnippet/manage/CacheService.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-springboot-redis/src/main/java/com/example/codesnippet/manager/CacheService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-springboot-redis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/03-springboot-redis/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-springboot-kafka/src/main/java/com/example/codesnippet/kafka/manage/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/04-springboot-kafka/src/main/java/com/example/codesnippet/kafka/manager/KafkaProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-springboot-nacos/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/05-springboot-nacos/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-springboot-rocketmq/src/main/java/com/example/codesnippet/rocketmq/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/09-springboot-rocketmq/src/main/java/com/example/codesnippet/rocketmq/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09-springboot-rocketmq/src/main/java/com/example/codesnippet/rocketmq/manage/RocketMQProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/09-springboot-rocketmq/src/main/java/com/example/codesnippet/rocketmq/manager/RocketMQProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-springboot-mvc/src/main/java/com/example/codesnippet/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/01-springboot-mvc/src/main/java/com/example/codesnippet/exception/BusinessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-redis/src/main/java/com/example/codesnippet/config/RedissonConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-springboot-redis/src/main/java/com/example/codesnippet/config/RedissonConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-redis/src/main/java/com/example/codesnippet/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-springboot-redis/src/main/java/com/example/codesnippet/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-redis/src/main/java/com/example/codesnippet/manager/CacheService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03-springboot-redis/src/main/java/com/example/codesnippet/manager/RedissonTestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/03-springboot-redis/src/main/java/com/example/codesnippet/manager/LockService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-springboot-dubbo/dubbo-consumer/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/dubbo-consumer/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-springboot-dubbo/dubbo-provider/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/06-springboot-dubbo/dubbo-provider/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20-nodejs-basic/01-模块化/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20-nodejs-basic/01-模块化/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20-nodejs-basic/01-模块化/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20-nodejs-basic/02-事件机制/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20-nodejs-basic/03-文件读写/async.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20-nodejs-basic/03-文件读写/sync.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20-nodejs-basic/03-文件读写/test_read.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20-nodejs-basic/03-文件读写/test_write.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20-nodejs-basic/04-流和管道/largeFile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20-nodejs-basic/04-流和管道/readable_stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20-nodejs-basic/04-流和管道/writable_stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20-nodejs-basic/05-进程/01-process.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20-nodejs-basic/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20-nodejs-basic/npm-project/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20-nodejs-basic/npm-project/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20-nodejs-basic/server/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20-nodejs-basic/server/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20-nodejs-basic/server/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30-express-mvc/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30-express-mvc/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30-express-mvc/code-snippet.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30-express-mvc/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30-express-mvc/pnpm-lock.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30-express-mvc/public/girl.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30-express-mvc/src/config/db.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30-express-mvc/src/controller/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30-express-mvc/src/controller/order.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30-express-mvc/src/controller/orderDetail.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30-express-mvc/src/controller/user.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30-express-mvc/src/controller/validator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30-express-mvc/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30-express-mvc/src/model/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30-express-mvc/src/model/order.model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30-express-mvc/src/model/orderDetail.model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30-express-mvc/src/model/user.model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30-express-mvc/src/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30-express-mvc/src/routes/order.route.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30-express-mvc/src/routes/orderDetail.route.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/30-express-mvc/src/routes/user.route.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,36 +86,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.Application (1).executor": "Run",
-    "Spring Boot.Application.executor": "Debug",
-    "Spring Boot.NacosApplication.executor": "Run",
-    "Spring Boot.RedisApplication (1).executor": "Run",
-    "Spring Boot.RedisApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/wanghuiru/Notes/backend-code-snippet",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.sourceCode",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.Application (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Application.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.NacosApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.RedisApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.RedisApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/wanghuiru/Notes/backend-code-snippet&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -125,8 +162,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.RedisApplication" />
       <item itemvalue="Spring Boot.NacosApplication" />
+      <item itemvalue="Spring Boot.RedisApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -152,7 +189,11 @@
       <option name="presentableId" value="Default" />
       <updated>1754113065001</updated>
       <workItem from="1754113066049" duration="22659000" />
-      <workItem from="1754154003628" duration="18755000" />
+      <workItem from="1754154003628" duration="21401000" />
+      <workItem from="1755534659029" duration="1506000" />
+      <workItem from="1755604351877" duration="1608000" />
+      <workItem from="1755688623335" duration="6000" />
+      <workItem from="1755707680591" duration="1654000" />
     </task>
     <servers />
   </component>

@@ -1,30 +1,38 @@
 package com.example.codesnippet.controller;
 
-import com.example.codesnippet.manager.RedissonTestService;
+import com.example.codesnippet.constants.RedisEventTopic;
+import com.example.codesnippet.manager.LockService;
+import com.example.codesnippet.manager.PublishService;
+import com.example.codesnippet.model.StockAlertEvent;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/redis")
 public class HelloController {
 
-    private final RedissonTestService redissonTestService;
+    private final LockService lockService;
+
+    private final PublishService publishService;
 
     @Autowired
-    public HelloController(RedissonTestService redissonTestService) {
-        this.redissonTestService = redissonTestService;
+    public HelloController(LockService lockService, PublishService publishService) {
+        this.lockService = lockService;
+        this.publishService = publishService;
     }
 
     @PostMapping("/lock")
     public boolean lock(@RequestParam String key) {
-        return redissonTestService.lock(key);
+        return lockService.lock(key);
     }
 
     @PostMapping("/tryLock")
     public boolean tryLock(@RequestParam String key) {
-        return redissonTestService.tryLock(key);
+        return lockService.tryLock(key);
+    }
+
+    @PostMapping("/publish")
+    public void publishStockEvent(@RequestBody StockAlertEvent event) {
+        publishService.publish(RedisEventTopic.STOCK_ALERT_CHANNEL, event);
     }
 }

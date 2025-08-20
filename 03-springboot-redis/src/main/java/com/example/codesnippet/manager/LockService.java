@@ -9,11 +9,11 @@ import java.util.concurrent.TimeUnit;
 
 @Slf4j
 @Service
-public class RedissonTestService {
+public class LockService {
 
     private final RedissonClient redissonClient;
 
-    public RedissonTestService(RedissonClient redissonClient) {
+    public LockService(RedissonClient redissonClient) {
         this.redissonClient = redissonClient;
     }
 
