@@ -13,25 +13,27 @@ import org.springframework.context.annotation.Configuration;
  *  3. QwenLanguageModel
  *  4. QwenStreamingLanguageModel
  * </pre>
+ *
+ * 这里注释，已在<application.properties>中定义
  */
 @Configuration
 public class AIModelConfig {
 
     private final String API_KEY = "";
 
-    @Bean
-    public QwenChatModel qwenChatModel() {
-        return QwenChatModel.builder().apiKey(API_KEY).modelName("qwen-plus").build();
-    }
-
-    @Bean
-    public QwenLanguageModel qwenLanguageModel() {
-        return QwenLanguageModel.builder()
-                .apiKey(API_KEY)
-                .modelName("qwen-plus")
-                .enableSearch(true)
-                .temperature(0.7f)
-                .maxTokens(4096)
-                .build();
-    }
+//    @Bean
+//    public QwenChatModel qwenChatModel() {
+//        return QwenChatModel.builder().apiKey(API_KEY).modelName("qwen-plus").build();
+//    }
+//
+//    @Bean
+//    public QwenLanguageModel qwenLanguageModel() {
+//        return QwenLanguageModel.builder()
+//                .apiKey(API_KEY)
+//                .modelName("qwen-plus")
+//                .enableSearch(true)
+//                .temperature(0.7f)
+//                .maxTokens(4096)
+//                .build();
+//    }
 }

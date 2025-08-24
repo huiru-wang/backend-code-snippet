@@ -3,7 +3,7 @@ package com.example.aicustomer.model;
 import lombok.Data;
 
 @Data
-public class ChatResponse {
+public class CustomerChatRequest {
 
-    private String content;
+    private String message;
 }
